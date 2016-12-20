@@ -1,0 +1,74 @@
+body {
+
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Arimo', sans-serif;
+}
+
+.container {
+  margin: 30px 240px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  border: solid #77ff33 1px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  text-shadow: 1px;
+  background-color: #00cc99;
+  color: #f0f8ff;
+  
+}
+
+.logoPic {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 15px;
+}
+
+img {
+  max-height: 12px;
+  max-width: 12px;
+}
+
+
+span {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+
+
+}
+
+h1 {
+  text-align: center;
+  color: #f0f8ff;
+  font-family: 'Bungee', cursive;
+
+}
+
+a {
+transition: 1s ease;
+}
+
+a:hover{
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .2s ease;
+}
